@@ -4,9 +4,9 @@ from email.mime.text import MIMEText
 # CONFIGURE THIS FIRST
 SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
-EMAIL_SENDER = 'pranavvijayakumar20@gmail.com'
+EMAIL_SENDER = 'your-email@gmail.com'
 EMAIL_PASSWORD = 'app_password'
-EMAIL_RECEIVER = 'pranavofficialskill@gmail.com'
+EMAIL_RECEIVER = 'receiver-email@gmail.com'
 
 def send_email_alert(anomalies):
     message = "Suspicious activity detected in logs:\n\n"
